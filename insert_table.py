@@ -12,7 +12,7 @@ mycursor = mydb.cursor()
 
 sql_command ="""
                     INSERT INTO Student(roll,first_name,last_name)
-                    VALUES(2,"RAKIB","ISLAM");
+                    VALUES(3,"mahfuz","rahman");
 
                     """
 mycursor.execute(sql_command)
